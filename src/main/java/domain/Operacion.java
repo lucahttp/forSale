@@ -1,6 +1,6 @@
 package domain;
 
-public abstract class Operacion implements  estado_operacion {
+public abstract class Operacion extends estado_operacion {
     enum OPERACION {
         VENTA,
         ALQUILER
