@@ -1,0 +1,20 @@
+empleado -> comision
+inmueble
+    tamaño en m2
+    cantidad de ambientes
+    tipo
+        casa
+        ph
+        depto
+    zona
+operacion
+    venta
+        pocentaje de comision
+    alquiler
+        meses
+zona
+    plus -> actualizable
+    nombre
+cliente
+    puede reservar
+    puede concretar operaciones
