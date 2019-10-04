@@ -1,0 +1,12 @@
+package domain;
+
+public class Depto extends inmueble {
+    protected int precioPorAmbiente = 350000;
+    Depto(int cantidadAmbientes, int metrosCuadrados, Zona miZona,Operacion laOperacion) {
+        super(cantidadAmbientes, metrosCuadrados,laOperacion,miZona);
+    }
+    @Override
+    public int getPrecio(){
+        return this.precioPorAmbiente * this.cantidadAmbientes + this.miZona.precio ;
+    }
+}
