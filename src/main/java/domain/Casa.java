@@ -1,6 +1,6 @@
 package domain;
 
-public class Casa extends inmueble {
+public class Casa extends Inmueble {
     protected int precioParticular;
 
     Casa(int cantidadAmbientes, int metrosCuadrados, int precioParticular, Zona miZona,Operacion laOperacion) {

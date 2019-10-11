@@ -1,14 +1,12 @@
 package domain;
 
-public abstract class inmueble {
+public abstract class Inmueble {
 
     protected int metrosCuadrados;
     protected int cantidadAmbientes;
     protected Zona miZona;
     protected  Operacion operacion;
-    protected
-
-    inmueble(int cantidadAmbientes, int metrosCuadrados, Operacion laOperacion, Zona miZona){
+    protected Inmueble(int cantidadAmbientes, int metrosCuadrados, Operacion laOperacion, Zona miZona){
         this.cantidadAmbientes = cantidadAmbientes;
         this.metrosCuadrados = metrosCuadrados;
         this.miZona = miZona;
@@ -26,5 +24,7 @@ public abstract class inmueble {
     public int getPrecio(){
         return 1;
     }
-
+    public int getComision(){
+        return 1;
+    }
 }

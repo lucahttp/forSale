@@ -1,6 +1,6 @@
 package domain;
 
-public class Ph extends inmueble {
+public class Ph extends Inmueble {
     protected int precioBase = 500000;
     protected int precioPorMetroCuadrado =  14000;
 

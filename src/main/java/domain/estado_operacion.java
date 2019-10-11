@@ -1,12 +1,24 @@
 package domain;
 
-public abstract class estado_operacion {
-    enum EstadoActual{
-        RESERVADO,
-        NO_RESERVADO,
-        VENDIDO
+public abstract class estado_operacion extends Operacion{
+
+    estado_operacion(Inmueble Inmueble, estado_operacion estado_operacion) {
+        super();
     }
-    public abstract void Reservado();
-    public abstract void NoReservado();
-    public abstract void Vendido();
+
+    public estado_operacion() {
+        super();
+    }
+
+
+
+    public boolean estasCerrada(){
+        return false;
+    }
+    public boolean estasReservada(){
+        return false;
+    }
+    public void Reservar(Cliente elCliente,Empleado elEmpleado,Inmueble elInmueble){
+
+    }
 }
