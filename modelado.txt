@@ -12,6 +12,7 @@ operacion
         pocentaje de comision
     alquiler
         meses
+    estado -> reservado/no reservado/vendido
 zona
     plus -> actualizable
     nombre
